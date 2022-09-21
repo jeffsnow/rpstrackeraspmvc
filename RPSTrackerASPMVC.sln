@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30907.101
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPS.Web", "RPS.Web\RPS.Web.csproj", "{6F3D8046-EFD1-4288-B06C-6D4F18F49D67}"
+	ProjectSection(ProjectDependencies) = postProject
+		{87F6E99F-E2AE-4517-8602-1EC0093C3731} = {87F6E99F-E2AE-4517-8602-1EC0093C3731}
+		{D17CF679-15E4-41D6-AAAB-931257210373} = {D17CF679-15E4-41D6-AAAB-931257210373}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPS.Core", "RPS.Core\RPS.Core.csproj", "{D17CF679-15E4-41D6-AAAB-931257210373}"
 EndProject
